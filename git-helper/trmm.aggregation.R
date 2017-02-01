@@ -5,7 +5,7 @@
 # install.packages("gdalUtils") # requires GDAL with SciDB driver (see https://github.com/appelmar/scidb4gdal/tree/dev) on the system:
 
 SCIDB_HOST = "128.176.148.9"
-SCIDB_PORT = 30021
+SCIDB_PORT = "30021"
 SCIDB_USER = "giscolab"
 SCIDB_PW   =  "BxLQmZVL2qqzUhU93usYYdxT" 	 
 

@@ -7,9 +7,9 @@
 # install.packages("gdalUtils") # requires GDAL with SciDB driver (see https://github.com/appelmar/scidb4gdal/tree/dev) on the system:
 
 SCIDB_HOST = "128.176.148.9"
-SCIDB_PORT = 30021
+SCIDB_PORT = "30021"
 SCIDB_USER = "giscolab"
-SCIDB_PW   =  "BxLQmZVL2qqzUhU93usYYdxT"
+SCIDB_PW   = "BxLQmZVL2qqzUhU93usYYdxT"
 
 # We don't want to pass connection details information in every single gdal_translate call und thus set it as environment variables
 Sys.setenv(SCIDB4GDAL_HOST=paste("https://",SCIDB_HOST, sep=""), 
