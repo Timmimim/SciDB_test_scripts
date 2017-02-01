@@ -13,6 +13,10 @@ SCIDB_PORT = "30021"
 SCIDB_USER = "giscolab"
 SCIDB_PW   =  "BxLQmZVL2qqzUhU93usYYdxT"
 
+Sys.setenv(http_proxy="")
+Sys.setenv(https_proxy="")
+Sys.setenv(HTTP_PROXY="")
+Sys.setenv(HTTPS_PROXY="")
 
 # We don't want to pass connection details information in every single gdal_translate call und thus set it as environment variables
 Sys.setenv(SCIDB4GDAL_HOST=paste("https://",SCIDB_HOST, sep=""), 
